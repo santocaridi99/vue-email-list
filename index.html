@@ -12,7 +12,9 @@
 </head>
 <body>
     <div id="app">
-       <ul>
+        <!-- mettendo  che la ul appare in pagina solo se la lunghezza dell'array è uguale a 10 -->
+        <!-- li farà comparire solo quando tutti saranno generati e non uno alla volta -->
+       <ul v-if="mails.length===10">
            <!-- per ogni mail contenuta nell'array mails si genera un li con contenuto l'email -->
          <li v-for="mail in mails">{{mail}}</li>
        </ul>
