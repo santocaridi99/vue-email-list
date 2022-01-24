@@ -1,7 +1,7 @@
 new Vue({
     el:'#app',
     data:{
-        // creo un array che chiamo mail che conterrà le 10 mail che dovrò inserire tramite API
+        // creo un array che chiamo mails che conterrà le 10 mail che dovrò inserire tramite API
         mails:[]
     },
     // quando html sarà "montato" nel browser fai chiamata api
